@@ -1,0 +1,88 @@
+@import 'colors.css';
+
+/* XFCE Aero Basic theme */
+/* License: GPL-v2.0-or-later */
+
+/* System tray panel fix */
+#systray-6 > box {
+	background: transparent;
+	border: 0px;
+}
+
+#tasklist-2 > box > widget > button {
+	border: 1px;
+	border-color: black;
+	background: linear-gradient(162deg, rgba(230,237,245,0.3) 28%, rgba(174,197,223,0.3) 83%) ;
+	padding-right: 5px;
+	opacity: 1;
+}
+
+#tasklist-2 > box > widget > button:hover {
+	border: 1px;
+	border-color: black;
+	background: linear-gradient(162deg, rgba(200,255,245,0.3) 28%, rgba(174,197,223,0.3) 83%) ;
+	padding-right: 5px;
+}
+
+#XfcePanelWindow {
+ background: linear-gradient(90deg, rgba(129,148,170,1) 15%, rgba(167,192,220,1) 73%, rgba(129,148,170,1) 84%);
+}
+
+#showdesktop-button > image {
+	padding: 0px 0px;
+	opacity: 0;
+}
+
+#showdesktop-button {
+	background: linear-gradient(144deg, rgba(149,157,166,1) 30%, rgba(126,145,166,1) 84%);
+}
+
+#showdesktop-button:hover {
+	background: linear-gradient(144deg, rgba(167,175,185,1) 30%, rgba(126,145,166,1) 84%);
+}
+
+/* Replace start button */
+#whiskermenu-button > box {
+	opacity: 0;
+}
+
+#whiskermenu-button {
+	background-color: transparent;
+	background-image: url("start.png");
+	background-size: 36px 36px;
+	background-repeat: no-repeat;
+	margin-top: 2px;
+	margin-left: 2px;
+	border-color: transparent;
+}
+
+#whiskermenu-button:hover {
+	background-image: url("start-hover.png");
+}
+
+#whiskermenu-button:checked {
+	background-image: url("start-hover.png");
+}
+
+#applicationmenu-button {
+	background-color: transparent;
+	background-image: url("start.png");
+	background-size: 36px 36px;
+	background-repeat: no-repeat;
+	margin-top: 2px;
+	margin-left: 2px;
+	border-color: transparent;
+}
+
+#applicationmenu-button:hover {
+	background-image: url("start-hover.png");
+}
+
+#applicationmenu-button:checked {
+	background-image: url("start-hover.png");
+}
+
+#applicationmenu-button > box > image {
+	opacity: 0.0;
+}
+

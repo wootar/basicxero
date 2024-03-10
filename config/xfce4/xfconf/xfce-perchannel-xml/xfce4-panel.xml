@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=720;y=21"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="36"/>
+      <property name="size" type="uint" value="40"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="8"/>
+        <value type="int" value="7"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.50588235294117645"/>
+        <value type="double" value="0.58039215686274515"/>
+        <value type="double" value="0.66666666666666663"/>
+        <value type="double" value="1"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="true"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="false"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="vmware-tray"/>
+        <value type="string" value="firewall-applet"/>
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
+        <value type="string" value="blueberry-tray.py"/>
+      </property>
+      <property name="icon-size" type="int" value="24"/>
+      <property name="known-items" type="array">
+        <value type="string" value="firewall-applet"/>
+        <value type="string" value="blueman"/>
+      </property>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-date-font" type="string" value="Segoe UI 9"/>
+      <property name="digital-time-font" type="string" value="Segoe UI 9"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="whiskermenu">
+      <property name="view-mode" type="int" value="2"/>
+      <property name="category-show-name" type="bool" value="true"/>
+      <property name="position-categories-alternate" type="bool" value="false"/>
+      <property name="position-profile-alternate" type="bool" value="true"/>
+      <property name="position-categories-horizontal" type="bool" value="false"/>
+      <property name="profile-shape" type="int" value="0"/>
+      <property name="button-single-row" type="bool" value="false"/>
+      <property name="show-button-icon" type="bool" value="true"/>
+      <property name="show-button-title" type="bool" value="false"/>
+      <property name="recent" type="array">
+        <value type="string" value="org.kde.spectacle.desktop"/>
+        <value type="string" value="xfce-wm-settings.desktop"/>
+        <value type="string" value="xfce-ui-settings.desktop"/>
+        <value type="string" value="vmware-workstation.desktop"/>
+        <value type="string" value="kitty.desktop"/>
+        <value type="string" value="org.prismlauncher.PrismLauncher.desktop"/>
+        <value type="string" value="org.kde.kcalc.desktop"/>
+        <value type="string" value="blueberry.desktop"/>
+        <value type="string" value="xfce-settings-manager.desktop"/>
+      </property>
+      <property name="launcher-icon-size" type="int" value="0"/>
+      <property name="launcher-show-description" type="bool" value="false"/>
+    </property>
+  </property>
+  <property name="force-all-internal" type="bool" value="true"/>
+</channel>
