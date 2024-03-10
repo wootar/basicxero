@@ -1,5 +1,8 @@
 #!/bin/sh
 set -e
+
+zenity --version > /dev/null 2>&1 || (echo "ERROR: Zenity is required"; exit 1)
+
 cd $(dirname "$0") || exit 1
 title="BasicXero"
 if [ -z "$DESTDIR" ]; then

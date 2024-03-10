@@ -86,3 +86,14 @@
 	opacity: 0.0;
 }
 
+#clock-button {
+	color: white;
+}
+
+#clock-button:hover {
+	background: transparent;
+}
+
+#clock-button:checked {
+	background: transparent;
+}
