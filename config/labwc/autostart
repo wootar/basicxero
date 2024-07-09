@@ -1,0 +1,5 @@
+#lxqt-panel > /dev/null 2>&1 &
+swaybg -m stretch -i ~/.local/wallpaper.jpg  &
+mako &
+#yambar
+sfwbar

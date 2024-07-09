@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+
+<!--
+  This is a very simple config file with many options missing. For a complete
+  set of options with comments, see docs/rc.xml.all
+-->
+
+<labwc_config>
+
+  <core>
+    <gap>0</gap>
+  </core>
+
+  <theme>
+    <name>win7-labwc</name>
+    <cornerRadius>8</cornerRadius>
+    <font name="Segoe UI" size="10" />
+  </theme>
+
+  <keyboard>
+    <default />
+    <!-- Use a different terminal emulator -->
+    <!--<keybind key="W-Return">
+      <action name="Execute" command="foot" />
+    </keybind> -->
+    <!--
+      Remove a previously defined keybind
+      A shorter alternative is <keybind key="W-F4" />
+    -->
+    <keybind key="W-F4">
+      <action name="None" />
+    </keybind>
+    <keybind key="A-p">
+	    <action name="Execute" command="wofi --show drun" />
+    </keybind>
+    <keybind key="A-S-Left">
+	    <action name="GoToDesktop" to="left" wrap="yes" />
+    </keybind>
+    <keybind key="A-S-Right">
+	    <action name="GoToDesktop" to="right" wrap="yes" />
+    </keybind>
+  </keyboard>
+
+  <mouse>
+    <default />
+    <!-- Show a custom menu on desktop right click -->
+    <context name="Root">
+      <mousebind button="Right" action="Press">
+        <action name="ShowMenu" menu="some-custom-menu" />
+      </mousebind>
+    </context>
+  </mouse>
+  <windowRules>
+   <windowRule identifier="lxqt-panel" matchOnce="true" fixedPosition="yes">
+    <skipTaskbar>yes</skipTaskbar>
+    <action name="MoveTo" x="0" y="0" />
+    <action name="ToggleAlwaysOnTop"/>
+   </windowRule>
+  </windowRules>
+  <desktops number="4"></desktops>
+
+</labwc_config>

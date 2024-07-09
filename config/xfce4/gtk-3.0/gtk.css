@@ -10,26 +10,18 @@
 }
 
 #tasklist-2 > box > widget > button {
-	border: 0px;
-	border-radius: 0px;
-	/*background: linear-gradient(162deg, rgba(230,237,245,0.3) 28%, rgba(0,0,0,0.0) 83%) ; */
-	background: url("task-inactive.svg");
+	border: 1px;
+	border-color: black;
+	background: linear-gradient(162deg, rgba(230,237,245,0.3) 28%, rgba(174,197,223,0.3) 83%) ;
 	padding-right: 5px;
-	min-width: 59px;
-	min-height: 41px;
 	opacity: 1;
 }
 
 #tasklist-2 > box > widget > button:hover {
-	background: url("task-hover.svg")
-}
-
-#tasklist-2 > box > widget > button:checked {
-	border-radius: 0px;
-	border: 0px;
-	outline-width: 0px;
-	outline: 0px;
-	background: url("task-active.svg")
+	border: 1px;
+	border-color: black;
+	background: linear-gradient(162deg, rgba(200,255,245,0.3) 28%, rgba(174,197,223,0.3) 83%) ;
+	padding-right: 5px;
 }
 
 #XfcePanelWindow {

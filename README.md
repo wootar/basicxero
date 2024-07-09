@@ -8,6 +8,6 @@ Windows 7 Aero Basic theme for XFCE, Batteries included.
 
 
 # TODO
-[ ] Add Kvantum
+[X] Add Kvantum
 
 [ ] HiDPI support (mostly implemented; tested on a phone screen)
